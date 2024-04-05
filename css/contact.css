@@ -1,7 +1,114 @@
+/* Main colors throughout entire site */
 :root {
     --bs-primary: #036371;
     --bs-secondary: #BBBFB7;
     --bs-light-color: #ffff;
     --bs-light-color-secondary: #d9d9d9;
     --bs-dark-color: #3e3e3e;
+}
+
+/* Main Font Family */
+
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a {
+    font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family: "Fahkwang", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+
+.logo {
+    width: 100px;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contact form - Top/Bottom Part*/
+
+h3 {
+    font-size: 20px;
+}
+
+h3,
+h4 {
+    color: var(--bs-secondary);
+}
+
+h4 {
+    font-size: 15px;
+}
+
+
+.form p {
+    color: var(--bs-light-color);
+}
+
+.form {
+    background-color: var(--bs-primary);
+}
+
+label {
+    font-size: 10px;
+    color: var(--bs-light-color);
+}
+
+.btn-submit {
+    background-color: var(--bs-secondary);
+    width: 110px;
+    font-family: "Fahkwang", sans-serif;
+
+}
+
+/* Location section */
+.location h3{
+    padding-top: 30px;
+}
+
+.location h3,
+.location p {
+    padding-left: 130px;
+}
+
+.location {
+    background-color: var(--bs-dark-color);
+}
+
+.location p {
+    font-size: 17px;
+}
+
+.iframe-container {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    padding-bottom: 45%;
+    padding-top: 30px;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border: 0;
+}
+
+
+/* Footer section */
+.footer {
+    background-color: var(--bs-secondary);
 }

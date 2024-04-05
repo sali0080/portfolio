@@ -1,3 +1,4 @@
+/* Main colors throughout entire site */
 :root {
     --bs-primary: #036371;
     --bs-secondary: #BBBFB7;
@@ -6,3 +7,72 @@
     --bs-dark-color: #3e3e3e;
 }
 
+/* Main Font Family */
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a {
+    font-family: "Fahkwang", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+    font-family: "nanito", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Nav Bar */
+
+.logo {
+    width: 100px;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+}
+
+/* About section with images */
+
+.myself-img {
+    background-color: var(--bs-primary);
+    width: 500px;
+}
+
+.myself-p {
+    background-color: var(--bs-secondary);
+}
+
+/* Quote Section */
+
+blockquote {
+    font-family: "fahkwang";
+    color: var(--bs-primary);
+}
+
+/* About me section */
+.experiences {
+    width: 100%;
+}
+
+/* how to help consumers */
+.client {
+    background-color: var(--bs-dark-color);
+}
+.client-list{
+    background-color: var(--bs-secondary);
+}
+
+.desk-img {
+    width: 400px;
+    background-color: var(--bs-dark-color);
+}
+
+/* Footer section */
+.footer {
+    background-color: var(--bs-secondary);
+}
