@@ -16,15 +16,15 @@ h5,
 h6,
 nav a {
     font-family: "Fahkwang", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
     font-family: "Fahkwang", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 1.5;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
 }
 
 /* Nav Bar */
@@ -72,10 +72,23 @@ label {
     width: 110px;
     font-family: "Fahkwang", sans-serif;
 
+    /* Animation */
+    animation: pulse 1s infinite alternate;
 }
 
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
 /* Location section */
-.location h3{
+.location h3 {
     padding-top: 30px;
 }
 
@@ -112,3 +125,78 @@ label {
 .footer {
     background-color: var(--bs-secondary);
 }
+
+.footer {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer form {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: var(--bs-light-color);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-bottom: 5px;/
+}
+
+.footer .icon {
+    width: 50pxpx;
+    margin-top: 10px;
+}
+
+footer .form-control {
+    width: 400px;
+}
+
+/**************** @Media qarry for iPad *************/
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 80px;
+        padding-top: 100px;
+        font-weight: 600;
+    }
+
+    .main-nav {
+        font-size: 30px;
+        padding-left: 80px;
+        letter-spacing: 0.2em;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .btn-primary {
+        font-size: 23px;
+        width: 80%;
+    }
+
+
+}
+
+/**************** @Media qarry for Desktop  *************/
+@media screen and (min-width: 1024px) {}
